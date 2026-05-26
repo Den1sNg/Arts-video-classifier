@@ -1,0 +1,255 @@
+{
+  "test_accuracy": 0.8666666666666667,
+  "test_f1_macro": 0.5532337383254815,
+  "best_val_f1_macro": 0.5873291565866469,
+  "total_valid_embeddings": 599,
+  "total_used": 599,
+  "train_size": 419,
+  "val_size": 90,
+  "test_size": 90,
+  "classification_report": "                                    precision    recall  f1-score   support\n\n                             books       1.00      1.00      1.00         9\ncarnivals_circuses_and_theme_parks       1.00      0.50      0.67         2\n          cosplay_and_role_playing       0.25      1.00      0.40         1\n                          costumes       0.70      0.82      0.76        17\n                    exhibited_arts       0.00      0.00      0.00         0\n                            movies       0.67      0.67      0.67         3\n                             music       1.00      0.88      0.94        58\n                   performing_arts       0.00      0.00      0.00         0\n\n                          accuracy                           0.87        90\n                         macro avg       0.58      0.61      0.55        90\n                      weighted avg       0.92      0.87      0.89        90\n",
+  "confusion_matrix": [
+    [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      14,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5,
+      0,
+      1,
+      51,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "label_to_id": {
+    "books": 0,
+    "carnivals_circuses_and_theme_parks": 1,
+    "cosplay_and_role_playing": 2,
+    "costumes": 3,
+    "exhibited_arts": 4,
+    "movies": 5,
+    "music": 6,
+    "performing_arts": 7
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.197653440131777,
+      "val_accuracy": 0.32222222222222224,
+      "val_f1_macro": 0.16099274216728945
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9027853225466744,
+      "val_accuracy": 0.6555555555555556,
+      "val_f1_macro": 0.34300755434776053
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6199524179278808,
+      "val_accuracy": 0.7111111111111111,
+      "val_f1_macro": 0.332972582972583
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.2289503875381906,
+      "val_accuracy": 0.7444444444444445,
+      "val_f1_macro": 0.3823609335038363
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.9860214808675725,
+      "val_accuracy": 0.7,
+      "val_f1_macro": 0.3579237071172555
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6934163004231054,
+      "val_accuracy": 0.7222222222222222,
+      "val_f1_macro": 0.45478865703584803
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.5649706640398587,
+      "val_accuracy": 0.6888888888888889,
+      "val_f1_macro": 0.35624721683545213
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.49253728110921124,
+      "val_accuracy": 0.7333333333333333,
+      "val_f1_macro": 0.3454879496806906
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4607472486598395,
+      "val_accuracy": 0.7666666666666667,
+      "val_f1_macro": 0.5873291565866469
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.35500640043353127,
+      "val_accuracy": 0.7111111111111111,
+      "val_f1_macro": 0.4419232605322831
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.2899313769647785,
+      "val_accuracy": 0.7888888888888889,
+      "val_f1_macro": 0.48123177842565606
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.24260155156005822,
+      "val_accuracy": 0.7111111111111111,
+      "val_f1_macro": 0.37774725274725274
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.16465369640429436,
+      "val_accuracy": 0.7555555555555555,
+      "val_f1_macro": 0.4581199752628324
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.1543269205064933,
+      "val_accuracy": 0.7555555555555555,
+      "val_f1_macro": 0.4578029231494578
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.1390380492358333,
+      "val_accuracy": 0.7777777777777778,
+      "val_f1_macro": 0.4186547751765143
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.12517100439444717,
+      "val_accuracy": 0.7444444444444445,
+      "val_f1_macro": 0.39806938159879335
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.10990218764842268,
+      "val_accuracy": 0.7333333333333333,
+      "val_f1_macro": 0.3963806056295793
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.11676178446266276,
+      "val_accuracy": 0.8111111111111111,
+      "val_f1_macro": 0.4359681199303841
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.09349367627540607,
+      "val_accuracy": 0.7777777777777778,
+      "val_f1_macro": 0.3653431885574743
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.08129872700870748,
+      "val_accuracy": 0.8111111111111111,
+      "val_f1_macro": 0.37854457572502687
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.06564901212590407,
+      "val_accuracy": 0.8,
+      "val_f1_macro": 0.43317378497790865
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.04943503608353667,
+      "val_accuracy": 0.7888888888888889,
+      "val_f1_macro": 0.4227222799611862
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.04417610797933292,
+      "val_accuracy": 0.8,
+      "val_f1_macro": 0.43317378497790865
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.04981106441459109,
+      "val_accuracy": 0.7444444444444445,
+      "val_f1_macro": 0.39916274201988483
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.07495086881507695,
+      "val_accuracy": 0.8222222222222222,
+      "val_f1_macro": 0.41147025395319253
+    }
+  ]
+}

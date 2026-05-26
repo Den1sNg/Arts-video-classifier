@@ -1,0 +1,22 @@
+{
+  "label_to_id": {
+    "books": 0,
+    "carnivals_circuses_and_theme_parks": 1,
+    "cosplay_and_role_playing": 2,
+    "costumes": 3,
+    "exhibited_arts": 4,
+    "movies": 5,
+    "music": 6,
+    "performing_arts": 7
+  },
+  "id_to_label": {
+    "0": "books",
+    "1": "carnivals_circuses_and_theme_parks",
+    "2": "cosplay_and_role_playing",
+    "3": "costumes",
+    "4": "exhibited_arts",
+    "5": "movies",
+    "6": "music",
+    "7": "performing_arts"
+  }
+}

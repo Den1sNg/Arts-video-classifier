@@ -1,0 +1,39 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter and Colab
+.ipynb_checkpoints/
+sample_data/
+
+# Local/editor files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary video files and intermediate folders
+tmp_videos/
+*.mp4
+*.mkv
+*.webm
+*.avi
+tmp_video.*
+
+# Large raw metadata/dataset dumps
+HowTo100M_v1.csv
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# HuggingFace / model download cache
+.cache/
+huggingface/
