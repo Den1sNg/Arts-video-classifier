@@ -237,6 +237,16 @@ pip install -r requirements.txt
 | Test | 150 |
 | **Total used** | **1000** |
 
+Разбиение выполнялось стратифицированно: в `train`, `validation` и `test` сохранялось примерно одинаковое соотношение подкатегорий.
+
+| Класс | Train | Validation | Test | Всего |
+|---|---:|---:|---:|---:|
+| `books` | 152 | 32 | 33 | 217 |
+| `costumes` | 152 | 33 | 32 | 217 |
+| `movies` | 152 | 32 | 33 | 217 |
+| `music` | 244 | 53 | 52 | 349 |
+| **Итого** | **700** | **150** | **150** | **1000** |
+
 График распределения обработанных видео:
 
 ![Number of Processed Videos per Category](results/model_results/processed_videos_per_category.svg)
