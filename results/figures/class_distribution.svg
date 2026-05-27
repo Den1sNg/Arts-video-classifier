@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Number of Processed Videos per Category</text>
+  <line x1="80" y1="420" x2="840" y2="420" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="80" x2="80" y2="420" stroke="#333" stroke-width="2"/>
+  <g stroke="#c8c8c8" stroke-width="1">
+    <line x1="80" y1="371.3" x2="840" y2="371.3"/><text x="68" y="376" text-anchor="end" font-family="Arial" font-size="13">50</text>
+    <line x1="80" y1="322.6" x2="840" y2="322.6"/><text x="68" y="327" text-anchor="end" font-family="Arial" font-size="13">100</text>
+    <line x1="80" y1="273.9" x2="840" y2="273.9"/><text x="68" y="278" text-anchor="end" font-family="Arial" font-size="13">150</text>
+    <line x1="80" y1="225.2" x2="840" y2="225.2"/><text x="68" y="230" text-anchor="end" font-family="Arial" font-size="13">200</text>
+    <line x1="80" y1="176.5" x2="840" y2="176.5"/><text x="68" y="181" text-anchor="end" font-family="Arial" font-size="13">250</text>
+    <line x1="80" y1="127.8" x2="840" y2="127.8"/><text x="68" y="132" text-anchor="end" font-family="Arial" font-size="13">300</text>
+    <line x1="80" y1="79.1" x2="840" y2="79.1"/><text x="68" y="84" text-anchor="end" font-family="Arial" font-size="13">350</text>
+  </g>
+  <g fill="#1f77b4">
+    <rect x="130" y="80.0" width="120" height="340.0"/>
+    <rect x="320" y="208.5" width="120" height="211.5"/>
+    <rect x="510" y="208.5" width="120" height="211.5"/>
+    <rect x="700" y="208.5" width="120" height="211.5"/>
+  </g>
+  <g font-family="Arial" font-size="15" fill="#222">
+    <text x="190" y="72" text-anchor="middle">349</text>
+    <text x="380" y="200" text-anchor="middle">217</text>
+    <text x="570" y="200" text-anchor="middle">217</text>
+    <text x="760" y="200" text-anchor="middle">217</text>
+  </g>
+  <g font-family="Arial" font-size="15" fill="#222">
+    <text x="190" y="455" text-anchor="middle">music</text>
+    <text x="380" y="455" text-anchor="middle">costumes</text>
+    <text x="570" y="455" text-anchor="middle">books</text>
+    <text x="760" y="455" text-anchor="middle">movies</text>
+  </g>
+  <text x="450" y="495" text-anchor="middle" font-family="Arial" font-size="16">Category</text>
+  <text x="25" y="250" text-anchor="middle" transform="rotate(-90 25 250)" font-family="Arial" font-size="16">Number of videos</text>
+</svg>

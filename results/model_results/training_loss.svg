@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="600">Training Loss</text>
+  <line x1="80" y1="400" x2="860" y2="400" stroke="#222" stroke-width="2"/>
+  <line x1="80" y1="60" x2="80" y2="400" stroke="#222" stroke-width="2"/>
+  <g stroke="#c8c8c8" font-family="Arial" font-size="13" fill="#555">
+    <line x1="80" y1="400" x2="860" y2="400"/>
+    <line x1="80" y1="315" x2="860" y2="315"/>
+    <line x1="80" y1="230" x2="860" y2="230"/>
+    <line x1="80" y1="145" x2="860" y2="145"/>
+    <line x1="80" y1="60" x2="860" y2="60"/>
+    <text x="65" y="405" text-anchor="end" stroke="none">0.0</text>
+    <text x="65" y="320" text-anchor="end" stroke="none">0.3</text>
+    <text x="65" y="235" text-anchor="end" stroke="none">0.6</text>
+    <text x="65" y="150" text-anchor="end" stroke="none">0.9</text>
+    <text x="65" y="65" text-anchor="end" stroke="none">1.2</text>
+  </g>
+  <polyline fill="none" stroke="#1f77b4" stroke-width="4" points="80,84 113,225 145,284 178,302 210,304 243,332 275,347 308,358 340,367 373,368 405,372 438,375 470,377 503,387 535,393 568,395 600,396 633,397 665,398 698,398 730,398 763,399 795,399 828,399 860,399"/>
+  <g font-family="Arial" font-size="14" fill="#222">
+    <rect x="710" y="74" width="18" height="4" fill="#1f77b4"/>
+    <text x="735" y="82">Train Loss</text>
+  </g>
+  <g font-family="Arial" font-size="13" fill="#555" text-anchor="middle">
+    <text x="80" y="425">1</text>
+    <text x="243" y="425">6</text>
+    <text x="405" y="425">11</text>
+    <text x="568" y="425">16</text>
+    <text x="730" y="425">21</text>
+    <text x="860" y="425">25</text>
+    <text x="470" y="480" font-size="16">Epoch</text>
+  </g>
+  <text x="25" y="250" transform="rotate(-90 25 250)" text-anchor="middle" font-family="Arial" font-size="16">Loss</text>
+</svg>

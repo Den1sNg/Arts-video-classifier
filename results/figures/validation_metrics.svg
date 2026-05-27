@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Validation Accuracy and F1-score</text>
+  <line x1="80" y1="420" x2="840" y2="420" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="80" x2="80" y2="420" stroke="#333" stroke-width="2"/>
+  <g stroke="#d0d0d0" stroke-width="1">
+    <line x1="80" y1="420" x2="840" y2="420"/><text x="68" y="425" text-anchor="end" font-family="Arial" font-size="13">0.0</text>
+    <line x1="80" y1="352" x2="840" y2="352"/><text x="68" y="357" text-anchor="end" font-family="Arial" font-size="13">0.2</text>
+    <line x1="80" y1="284" x2="840" y2="284"/><text x="68" y="289" text-anchor="end" font-family="Arial" font-size="13">0.4</text>
+    <line x1="80" y1="216" x2="840" y2="216"/><text x="68" y="221" text-anchor="end" font-family="Arial" font-size="13">0.6</text>
+    <line x1="80" y1="148" x2="840" y2="148"/><text x="68" y="153" text-anchor="end" font-family="Arial" font-size="13">0.8</text>
+    <line x1="80" y1="80" x2="840" y2="80"/><text x="68" y="85" text-anchor="end" font-family="Arial" font-size="13">1.0</text>
+  </g>
+  <polyline fill="none" stroke="#1f77b4" stroke-width="3" points="80,175.2 111.7,138.9 143.3,125.3 175,120.8 206.7,125.3 238.3,123.1 270,123.1 301.7,130.9 333.3,127.6 365,130.9 396.7,127.6 428.3,123.1 460,120.8 491.7,118.5 523.3,120.8 555,125.3 586.7,116.4 618.3,125.3 650,123.1 681.7,123.1 713.3,123.1 745,120.8 776.7,123.1 808.3,120.8 840,120.8"/>
+  <polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="80,186.9 111.7,143.9 143.3,127.7 175,123.5 206.7,128.5 238.3,125.5 270,125.1 301.7,134.8 333.3,133.4 365,132.9 396.7,130.0 428.3,125.0 460,123.9 491.7,120.4 523.3,123.6 555,128.5 586.7,117.9 618.3,127.7 650,126.5 681.7,126.1 713.3,126.5 745,123.6 776.7,126.5 808.3,123.6 840,123.6"/>
+  <g font-family="Arial" font-size="14">
+    <rect x="650" y="92" width="160" height="60" fill="white" stroke="#ccc"/>
+    <line x1="668" y1="113" x2="710" y2="113" stroke="#1f77b4" stroke-width="3"/><text x="720" y="118">Val Accuracy</text>
+    <line x1="668" y1="137" x2="710" y2="137" stroke="#ff7f0e" stroke-width="3"/><text x="720" y="142">Val F1 macro</text>
+  </g>
+  <text x="450" y="485" text-anchor="middle" font-family="Arial" font-size="16">Epoch</text>
+  <text x="25" y="250" text-anchor="middle" transform="rotate(-90 25 250)" font-family="Arial" font-size="16">Metric</text>
+</svg>

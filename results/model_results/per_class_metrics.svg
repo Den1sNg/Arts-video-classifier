@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="white"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="600">Per-Class Precision, Recall and F1-score</text>
+  <line x1="80" y1="400" x2="860" y2="400" stroke="#222" stroke-width="2"/>
+  <line x1="80" y1="60" x2="80" y2="400" stroke="#222" stroke-width="2"/>
+  <g stroke="#c8c8c8" font-family="Arial" font-size="13" fill="#555">
+    <line x1="80" y1="400" x2="860" y2="400"/>
+    <line x1="80" y1="332" x2="860" y2="332"/>
+    <line x1="80" y1="264" x2="860" y2="264"/>
+    <line x1="80" y1="196" x2="860" y2="196"/>
+    <line x1="80" y1="128" x2="860" y2="128"/>
+    <line x1="80" y1="60" x2="860" y2="60"/>
+    <text x="65" y="405" text-anchor="end" stroke="none">0.0</text>
+    <text x="65" y="337" text-anchor="end" stroke="none">0.2</text>
+    <text x="65" y="269" text-anchor="end" stroke="none">0.4</text>
+    <text x="65" y="201" text-anchor="end" stroke="none">0.6</text>
+    <text x="65" y="133" text-anchor="end" stroke="none">0.8</text>
+    <text x="65" y="65" text-anchor="end" stroke="none">1.0</text>
+  </g>
+  <g>
+    <rect x="130" y="159" width="38" height="241" fill="#1f77b4"/>
+    <rect x="172" y="142" width="38" height="258" fill="#ff7f0e"/>
+    <rect x="214" y="148" width="38" height="252" fill="#2ca02c"/>
+    <rect x="315" y="128" width="38" height="272" fill="#1f77b4"/>
+    <rect x="357" y="101" width="38" height="299" fill="#ff7f0e"/>
+    <rect x="399" y="114" width="38" height="286" fill="#2ca02c"/>
+    <rect x="500" y="121" width="38" height="279" fill="#1f77b4"/>
+    <rect x="542" y="111" width="38" height="289" fill="#ff7f0e"/>
+    <rect x="584" y="114" width="38" height="286" fill="#2ca02c"/>
+    <rect x="685" y="60" width="38" height="340" fill="#1f77b4"/>
+    <rect x="727" y="101" width="38" height="299" fill="#ff7f0e"/>
+    <rect x="769" y="80" width="38" height="320" fill="#2ca02c"/>
+  </g>
+  <g font-family="Arial" font-size="14" fill="#222" text-anchor="middle">
+    <text x="191" y="430">books</text>
+    <text x="376" y="430">costumes</text>
+    <text x="561" y="430">movies</text>
+    <text x="746" y="430">music</text>
+  </g>
+  <g font-family="Arial" font-size="14" fill="#222">
+    <rect x="650" y="72" width="16" height="16" fill="#1f77b4"/>
+    <text x="674" y="85">Precision</text>
+    <rect x="650" y="97" width="16" height="16" fill="#ff7f0e"/>
+    <text x="674" y="110">Recall</text>
+    <rect x="650" y="122" width="16" height="16" fill="#2ca02c"/>
+    <text x="674" y="135">F1-score</text>
+  </g>
+  <text x="25" y="250" transform="rotate(-90 25 250)" text-anchor="middle" font-family="Arial" font-size="16">Score</text>
+</svg>

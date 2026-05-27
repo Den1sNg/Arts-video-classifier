@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="600">Validation Accuracy and F1-score</text>
+  <line x1="80" y1="400" x2="860" y2="400" stroke="#222" stroke-width="2"/>
+  <line x1="80" y1="60" x2="80" y2="400" stroke="#222" stroke-width="2"/>
+  <g stroke="#c8c8c8" font-family="Arial" font-size="13" fill="#555">
+    <line x1="80" y1="400" x2="860" y2="400"/>
+    <line x1="80" y1="315" x2="860" y2="315"/>
+    <line x1="80" y1="230" x2="860" y2="230"/>
+    <line x1="80" y1="145" x2="860" y2="145"/>
+    <line x1="80" y1="60" x2="860" y2="60"/>
+    <text x="65" y="405" text-anchor="end" stroke="none">0.65</text>
+    <text x="65" y="320" text-anchor="end" stroke="none">0.73</text>
+    <text x="65" y="235" text-anchor="end" stroke="none">0.80</text>
+    <text x="65" y="150" text-anchor="end" stroke="none">0.88</text>
+    <text x="65" y="65" text-anchor="end" stroke="none">0.95</text>
+  </g>
+  <polyline fill="none" stroke="#1f77b4" stroke-width="4" points="80,321 113,200 145,155 178,139 210,155 243,147 275,147 308,170 340,162 373,170 405,162 438,147 470,139 503,132 535,139 568,155 600,124 633,155 665,147 698,147 730,147 763,139 795,147 828,139 860,139"/>
+  <polyline fill="none" stroke="#ff7f0e" stroke-width="4" points="80,360 113,216 145,162 178,148 210,165 243,155 275,154 308,186 340,182 373,180 405,170 438,154 470,150 503,138 535,149 568,165 600,130 633,161 665,158 698,156 730,158 763,149 795,158 828,149 860,149"/>
+  <g font-family="Arial" font-size="14" fill="#222">
+    <rect x="675" y="72" width="18" height="4" fill="#1f77b4"/>
+    <text x="700" y="80">Val Accuracy</text>
+    <rect x="675" y="97" width="18" height="4" fill="#ff7f0e"/>
+    <text x="700" y="105">Val F1 macro</text>
+  </g>
+  <g font-family="Arial" font-size="13" fill="#555" text-anchor="middle">
+    <text x="80" y="425">1</text>
+    <text x="243" y="425">6</text>
+    <text x="405" y="425">11</text>
+    <text x="568" y="425">16</text>
+    <text x="730" y="425">21</text>
+    <text x="860" y="425">25</text>
+    <text x="470" y="480" font-size="16">Epoch</text>
+  </g>
+  <text x="25" y="250" transform="rotate(-90 25 250)" text-anchor="middle" font-family="Arial" font-size="16">Metric</text>
+</svg>

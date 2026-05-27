@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="600">Final Test Metrics</text>
+  <line x1="80" y1="400" x2="860" y2="400" stroke="#222" stroke-width="2"/>
+  <line x1="80" y1="60" x2="80" y2="400" stroke="#222" stroke-width="2"/>
+  <g stroke="#c8c8c8" font-family="Arial" font-size="13" fill="#555">
+    <line x1="80" y1="400" x2="860" y2="400"/>
+    <line x1="80" y1="332" x2="860" y2="332"/>
+    <line x1="80" y1="264" x2="860" y2="264"/>
+    <line x1="80" y1="196" x2="860" y2="196"/>
+    <line x1="80" y1="128" x2="860" y2="128"/>
+    <line x1="80" y1="60" x2="860" y2="60"/>
+    <text x="65" y="405" text-anchor="end" stroke="none">0.0</text>
+    <text x="65" y="337" text-anchor="end" stroke="none">0.2</text>
+    <text x="65" y="269" text-anchor="end" stroke="none">0.4</text>
+    <text x="65" y="201" text-anchor="end" stroke="none">0.6</text>
+    <text x="65" y="133" text-anchor="end" stroke="none">0.8</text>
+    <text x="65" y="65" text-anchor="end" stroke="none">1.0</text>
+  </g>
+  <g fill="#1f77b4">
+    <rect x="125" y="112" width="110" height="288"/>
+    <rect x="275" y="118" width="110" height="282"/>
+    <rect x="425" y="114" width="110" height="286"/>
+    <rect x="575" y="116" width="110" height="284"/>
+    <rect x="725" y="111" width="110" height="289"/>
+  </g>
+  <g font-family="Arial" font-size="15" fill="#222" text-anchor="middle">
+    <text x="180" y="101">0.847</text>
+    <text x="330" y="107">0.830</text>
+    <text x="480" y="103">0.840</text>
+    <text x="630" y="105">0.836</text>
+    <text x="780" y="100">0.850</text>
+    <text x="180" y="430">Accuracy</text>
+    <text x="330" y="430">Precision</text>
+    <text x="480" y="430">Recall</text>
+    <text x="630" y="430">F1-score</text>
+    <text x="780" y="430">Weighted F1</text>
+  </g>
+  <text x="25" y="250" transform="rotate(-90 25 250)" text-anchor="middle" font-family="Arial" font-size="16">Score</text>
+</svg>
