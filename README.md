@@ -378,26 +378,3 @@ Classification report:
 7. Оценка модели на тестовой выборке.
 
 Итоговая модель обучена на 1000 видеоэмбеддингах и достигла `84.7%` accuracy и `83.6%` macro F1 на тестовой выборке. Основное преимущество итогового эксперимента в том, что качество получилось сбалансированным по классам: модель хорошо распознает не только самый крупный класс `music`, но и категории `costumes`, `movies` и `books`.
-
-## Загрузка проекта на GitHub
-
-
-Команды для первого коммита:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<your-username>/arts-video-classifier.git
-git push -u origin main
-```
-
-После создания пустого репозитория на GitHub:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/<your-username>/arts-video-classifier.git
-git push -u origin main
-```
-
